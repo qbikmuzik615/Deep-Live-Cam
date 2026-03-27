@@ -1,0 +1,1 @@
+{\n    "name": "My Codespace",\n    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",\n    "features": {\n        "python": {\n            "version": "3.8"\n        }\n    },\n    "postCreateCommand": "pip install -r requirements.txt",\n    "settings": {\n        "editor.formatOnSave": true\n    },\n    "extensions": [\n        "ms-python.python"\n    ]\n}
